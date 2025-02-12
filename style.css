@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.price {
+    background-color: #259890;
+    width: 1000px;
+    height: 350px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price form {
+    display: flex;
+}
+
+.price form .amount {
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    border: 3px solid #20b2aa;
+}
+
+.price form .usd-label {
+    background-color: #027b73;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid #20b2aa;
+    color: white;
+    
+}
+
+
+.egp,
+.sar,
+.aed {
+    font-weight: bold;
+    color: white;
+    margin-top: 29px;
+    font-size: 23px;
+}
+
+
+.egp span,
+.sar span,
+.aed span {
+    background-color: #259890;
+    padding: 6px 22px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid #00ede0;
+    color: white;
+}
+
+.conv-button {
+    background-color: #027b73;
+    padding: 20px 45px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid #20b2aa;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
